@@ -6,10 +6,8 @@ import ICAL from 'ical.js'
 const getConfig = () => JSON.parse(fs.readFileSync('config.json', { encoding: 'utf8' }));
 
 const testFolder = './';
-fs.readdir(testFolder, (err, files) => {
-  files.forEach(file => {
-    console.log(file);
-  });
+fs.readdirSync(testFolder).forEach(file => {
+  console.log(file);
 });
 
 let CONFIG = getConfig();
