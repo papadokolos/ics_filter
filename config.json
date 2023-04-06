@@ -1,17 +1,9 @@
 {
     "canvas": {
-        "url": "https://canvas.uva.nl/feeds/calendars/XXX.ics",
+        "url": "https://moodle2.cs.huji.ac.il/nu22/calendar/export_execute.php?userid=819593&authtoken=745f6f56553aabc753f5a467a8677c7f43374bdf&preset_what=all&preset_time=custom",
         "filters": [
             {
-                "location": "Zoom Online Meeting"
-            }
-        ]
-    },
-    "work": {
-        "url": "work ics url",
-        "filters": [
-            {
-                "location": "^\\[uni\\]"
+                "SUMMARY": "^8013402"
             }
         ]
     }
