@@ -3,9 +3,9 @@ import util from 'util'
 import express from 'express'
 import axios from 'axios'
 import ICAL from 'ical.js'
-const getConfig = () => JSON.parse(fs.readFileSync('config.json', { encoding: 'utf8' }));
+const getConfig = () => JSON.parse(fs.readFileSync('/etc/secrets/config.json', { encoding: 'utf8' }));
 
-const testFolder = './';
+const testFolder = '/etc/secrets/';
 fs.readdirSync(testFolder).forEach(file => {
   console.log(file);
 });
